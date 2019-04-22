@@ -1,0 +1,16 @@
+<div style="text-align:center">
+  <h1>
+    This is the {{ title }}!
+  </h1>
+  <h4> Two way Data Binding</h4>
+  <!-- 2 way data binding  -->
+  <input [(ngModel)]="username">  <!-- Event Binding -->
+  <div *ngIf="username">
+	<h4>Hello {{username}}!</h4>    <!-- Property Binding -->
+  </div>
+ </div>
+ 
+ 
+  
+
+ 
